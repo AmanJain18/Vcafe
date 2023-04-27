@@ -1,0 +1,24 @@
+    @import "../../../mixins.scss";
+    .react-select-container {
+      &.genresDD {
+        width: 100%;
+        @include md {
+          max-width: 300px;
+          min-width: 200px;
+        }
+      }
+      .react-select__control {
+        background-color: white;
+        border-radius: 5px;
+        .react-select__value-container {
+          .react-select__placeholder,
+          .react-select__input-container {
+            color: white;
+          }
+        }
+        .react-select__single-value {
+          color: orange;
+        }
+
+      }
+    }

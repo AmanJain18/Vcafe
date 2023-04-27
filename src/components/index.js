@@ -1,0 +1,12 @@
+export { default as Header } from "./header/Header";
+export { default as Footer } from "./footer/Footer";
+export { default as LazyLoad } from "./lazyLoadImg/Img";
+export { default as ContentWrapper } from "./contentWrapper/ContentWrapper";
+export { default as Carousel } from "./carousel/Carousel";
+export { default as Order } from "./Order";
+// export { default as SwitchTabs } from "./switchTab/SwitchTabs";
+// export { default as Rating } from "./ratings/Ratings";
+// export { default as Genres } from "./genres/Genres";
+// export { default as VideoPopup } from "./videoPopup/VideoPopup";
+// export { default as MovieCard } from "./movieCard/MovieCard";
+// export { default as Spinner } from "./spinner/Spinner";

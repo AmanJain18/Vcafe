@@ -12,7 +12,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
-import { BsArrow90DegUp, BsArrow90DegDown } from 'react-icons/bs';
+import { BsChevronDown, BsChevronUp } from 'react-icons/bs';
 import { authApi } from "../../utils/api";
 import { useDispatch } from "react-redux";
 import { toast } from "react-hot-toast";
@@ -104,7 +104,7 @@ const OrderPage = () => {
                             size="small"
                             onClick={() => setOpen(prev => !prev)}
                         >
-                            {open ? <BsArrow90DegUp /> : <BsArrow90DegDown />}
+                            {open ? <BsChevronUp /> : <BsChevronDown />}
                         </IconButton>
                     </TableCell>
                 </TableRow>

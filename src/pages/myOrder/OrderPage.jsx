@@ -151,7 +151,7 @@ const OrderPage = () => {
 
 
     return (
-        <ContentWrapper className={"mt-10 mx-auto container"}>
+        <ContentWrapper className={"mt-0 mx-auto container h-[500px]"}>
             <h1 className="text-2xl font-semibold mb-5 text-center">My Orders</h1>
             {orders.length > 0 ? (
                 <TableContainer component={Paper}>

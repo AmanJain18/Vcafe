@@ -21,7 +21,7 @@ const Cart = () => {
     const handlePayment = async () => {
         try {
             setLoading(true);
-            const res = await api.post("order/create-checkout-session", {
+            const res = await api.post("/create-checkout-session", {
                 user: data,
                 cartItems,
                 subTotal,
